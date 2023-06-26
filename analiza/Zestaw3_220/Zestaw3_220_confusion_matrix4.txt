@@ -1,0 +1,28 @@
+ & 0,0 & -0,5 & -1,0 & -1,5 & -2,0  \\ \hline \hline 
+B  & 1.00 & 0.99 & 0.98 & 0.99 & 1.00  \\ \hline 
+G  & 1.00 & 1.00 & 1.00 & 1.00 & 1.00  \\ \hline 
+O  & 1.00 & 1.00 & 1.00 & 1.00 & 1.00  \\ \hline 
+R  & 0.98 & 0.93 & 0.91 & 0.93 & 1.00  \\ \hline 
+W  & 1.00 & 1.00 & 1.00 & 0.98 & 0.91  \\ \hline 
+Y  & 1.00 & 0.89 & 0.99 & 0.95 & 1.00  \\ \hline 
+
+
+==========
+
+\begin{table}[h]
+\centering 
+\caption{Zestawienie wyników dla zestawu 3 z wykorzystaniem próbek wszystkich kolorów w każdym z wariantu oświetlenia w liczbie 220.}
+\resizebox{14.8cm}{!}{
+\begin{tabular}{ cc|c|c|c|c|c|c||c|c|c|c|c||c|c|c|c} 
+              \multicolumn{8}{c}{Predykcja} & \multicolumn{5}{c}{Ekspozycja} & \multicolumn{3}{c}{Miary} \\ \cline{3-16} 
+            \multirow{8}{*}{\rotatebox{90}{Rzeczywiste}} & & \cellcolor{gray!25}B & \cellcolor{gray!25}G & \cellcolor{gray!25}O & \cellcolor{gray!25}R & \cellcolor{gray!25}W & \cellcolor{gray!25}Y &\cellcolor{gray!10} 0,0 & \cellcolor{gray!10}-0,5 & \cellcolor{gray!10}-1,0 & \cellcolor{gray!10}-1,5 & \cellcolor{gray!10}-2,0 & \cellcolor{gray!50}Prec & \cellcolor{gray!50}Pel & \cellcolor{gray!50}F1\\ \cline{2-13}
+              & \cellcolor{gray!50} B  & 3422&  28&   0&   0&   0&   0 & 1.00 & 0.99 & 0.98 & 0.99 & 1.00 &       1.00&     0.99&     1.00  \\ \cline{2-16} 
+& \cellcolor{gray!50} G  &    0&3450&   0&   0&   0&   0 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 &       0.99&     1.00&     1.00  \\ \cline{2-16} 
+& \cellcolor{gray!50} O  &    0&   0&3449&   0&   0&   1 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 &       0.93&     1.00&     0.96  \\ \cline{2-16} 
+& \cellcolor{gray!50} R  &    0&   0& 179&3271&   0&   0 & 0.98 & 0.93 & 0.91 & 0.93 & 1.00 &       0.99&     0.95&     0.97  \\ \cline{2-16} 
+& \cellcolor{gray!50} W  &    0&   0&   0&  44&3379&  27 & 1.00 & 1.00 & 1.00 & 0.98 & 0.91 &       0.99&     0.98&     0.98  \\ \cline{2-16} 
+& \cellcolor{gray!50} Y  &    0&   0&  84&   0&  32&3334 & 1.00 & 0.89 & 0.99 & 0.95 & 1.00 &       0.99&     0.97&     0.98  \\ \cline{2-16} 
+& &\multicolumn{11}{c}{\cellcolor{gray!20}Zestaw3,  N=220} & \multicolumn{2}{|c|}{\cellcolor{gray!50} \textbf{Dokładność}} &  \textbf{0.98} \\  \cline{3-16} 
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,29 @@
+ & 0,0 & -0,5 & -1,0 & -1,5 & -2,0  \\ \hline \hline 
+B  & 1.00  \\ \hline 
+G  & 1.00  \\ \hline 
+O  & 1.00  \\ \hline 
+R  & 0.93  \\ \hline 
+W  & 1.00  \\ \hline 
+Y  & 1.00  \\ \hline 
+
+
+==========
+
+\begin{table}[h]
+\centering 
+\caption{Zestawienie wyników dla zestawu 1 z wykorzystaniem próbek wszystkich kolorów w każdym z wariantu oświetlenia w liczbie 50.}
+\resizebox{10cm}{!}{
+
+\begin{tabular}{ cc|c|c|c|c|c|c||c|c|c|c} 
+\multicolumn{8}{c}{Predykcja}  & \multicolumn{3}{c}{Miary} \\ \cline{3-11} 
+\multirow{8}{*}{\rotatebox{90}{Rzeczywiste}} & & \cellcolor{gray!25}B & \cellcolor{gray!25}G & \cellcolor{gray!25}O & \cellcolor{gray!25}R & \cellcolor{gray!25}W & \cellcolor{gray!25}Y  & \cellcolor{gray!50}Prec & \cellcolor{gray!50}Peł & \cellcolor{gray!50}F1\\ \cline{2-11}
+& \cellcolor{gray!50} B  & 690&  0&  0&  0&  0&  0 &       1.00&     1.00&     1.00  \\ \cline{2-11} 
+& \cellcolor{gray!50} G  &   0&690&  0&  0&  0&  0 &       1.00&     1.00&     1.00  \\ \cline{2-11} 
+& \cellcolor{gray!50} O  &   0&  0&690&  0&  0&  0 &       0.98&     1.00&     0.99  \\ \cline{2-11} 
+& \cellcolor{gray!50} R  &   0&  0& 16&642&  0& 32 &       1.00&     0.93&     0.96  \\ \cline{2-11} 
+& \cellcolor{gray!50} W  &   0&  0&  0&  0&690&  0 &       1.00&     1.00&     1.00  \\ \cline{2-11} 
+& \cellcolor{gray!50} Y  &   0&  0&  1&  0&  0&689 &       0.96&     1.00&     0.98  \\ \cline{2-11} 
+& &\multicolumn{6}{c}{\cellcolor{gray!20}Zestaw1,  N=50} & \multicolumn{2}{|c|}{\cellcolor{gray!50} \textbf{Dokładność}} &  \textbf{0.98} \\  \cline{3-11} 
+\end{tabular}
+}
+\end{table}
